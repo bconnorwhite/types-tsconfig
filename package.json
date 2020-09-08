@@ -1,0 +1,29 @@
+{
+  "name": "types-tsconfig",
+  "version": "1.0.0",
+  "description": "Type checking for tsconfig.json",
+  "license": "MIT",
+  "author": {
+    "name": "Connor White",
+    "email": "connor.bcw@gmail.com",
+    "url": "https://connorwhite.org"
+  },
+  "homepage": "https://connorwhite.org/github/types-tsconfig",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bconnorwhite/types-tsconfig.git"
+  },
+  "keywords": [],
+  "files": [
+    "build"
+  ],
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "bob build",
+    "postversion": "git push",
+    "prepublishOnly": "yarn run build"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^2.1.0"
+  }
+}

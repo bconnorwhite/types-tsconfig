@@ -30,6 +30,25 @@ yarn add types-tsconfig
 npm install types-tsconfig
 ```
 
+## API
+
+### Types
+
+```ts
+import {
+  TSConfigJSON,
+  CompilerOptions,
+  TypeAcquisition,
+  References,
+  Plugin,
+  Lib,
+  Target,
+  Newline,
+  Module,
+  JSX
+} from "types-tsconfig";
+```
+
 <br />
 
 <h2>Dev Dependencies<img align="right" alt="David" src="https://img.shields.io/david/dev/bconnorwhite/types-tsconfig.svg"></h2>
