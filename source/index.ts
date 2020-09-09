@@ -1,4 +1,6 @@
 
+export const fileName = "tsconfig.json";
+
 export type JSX =
 	| 'preserve'
 	| 'react'

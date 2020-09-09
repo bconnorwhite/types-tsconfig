@@ -45,8 +45,11 @@ import {
   Target,
   Newline,
   Module,
-  JSX
+  JSX,
+  fileName
 } from "types-tsconfig";
+
+console.log(fileName); // "tsconfig.json"
 ```
 
 <br />
