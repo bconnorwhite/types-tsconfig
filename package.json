@@ -13,7 +13,19 @@
     "type": "git",
     "url": "git+https://github.com/bconnorwhite/types-tsconfig.git"
   },
-  "keywords": [],
+  "keywords": [
+    "tsconfig",
+    "json",
+    "types",
+    "type",
+    "check",
+    "guard",
+    "guards",
+    "ts",
+    "tsc",
+    "config",
+    "typescript"
+  ],
   "files": [
     "build"
   ],
