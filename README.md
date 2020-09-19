@@ -76,3 +76,4 @@ console.log(fileName); // "tsconfig.json"
 
 - [types-json](https://www.npmjs.com/package/types-json): Type checking for JSON objects
 - [types-pkg-json](https://www.npmjs.com/package/types-pkg-json): Type checking for package.json
+- [types-eslintrc](https://www.npmjs.com/package/types-eslintrc): Type checking for .eslintrc.json
