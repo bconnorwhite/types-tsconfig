@@ -5254,6 +5254,11 @@ types-json@^1.0.6:
   resolved "https://registry.yarnpkg.com/types-json/-/types-json-1.0.7.tgz#d7e929c3dc88c6362c445526338ad1c3e641cb39"
   integrity sha512-BzDzAIjrSrViEYQtCCjOemr5yggoUQE0oJGiVkMUE3yy5FNSZmWZqlB2DDLSm3VeE0hsj8snXVIHJmWKX0PtUQ==
 
+types-json@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/types-json/-/types-json-1.2.0.tgz#78323a7afa1d9e045999e36d57966d107931dfc4"
+  integrity sha512-lGcaoYhrVAHpP30kcz9BK9a+KOO++lq9hE9DQBn3OxjvF9/2vYwrdNZswKUsNiAZO2lEIUAZaHhf2QVEKF3eSg==
+
 typescript@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.2.tgz#7ea7c88777c723c681e33bf7988be5d008d05ac2"

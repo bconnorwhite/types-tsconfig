@@ -54,6 +54,12 @@ console.log(fileName); // "tsconfig.json"
 
 <br />
 
+<h2>Dependencies<img align="right" alt="David" src="https://img.shields.io/david/bconnorwhite/types-tsconfig.svg"></h2>
+
+- [types-json](https://www.npmjs.com/package/types-json): Type checking for JSON objects
+
+<br />
+
 <h2>Dev Dependencies<img align="right" alt="David" src="https://img.shields.io/david/dev/bconnorwhite/types-tsconfig.svg"></h2>
 
 - [@bconnorwhite/bob](https://www.npmjs.com/package/@bconnorwhite/bob): Bob is a toolkit for TypeScript projects

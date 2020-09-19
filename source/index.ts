@@ -1,3 +1,4 @@
+import { JSONValue } from "types-json";
 
 export const fileName = "tsconfig.json";
 
@@ -149,7 +150,7 @@ export type Lib =
 	| 'webworker.importscripts';
 
 export type Plugin = {
-	[key: string]: unknown;
+	[key: string]: JSONValue | undefined;
 	/**
 	Plugin name.
 	*/
