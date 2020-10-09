@@ -46,7 +46,7 @@ import {
   Plugin,
   Lib,
   Target,
-  Newline,
+  NewLine,
   Module,
   JSX,
   fileName
