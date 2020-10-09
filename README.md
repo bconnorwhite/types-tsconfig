@@ -1,13 +1,16 @@
 <div align="center">
   <h1>types-tsconfig</h1>
   <a href="https://npmjs.com/package/types-tsconfig">
-    <img alt="npm" src="https://img.shields.io/npm/v/types-tsconfig.svg">
+    <img alt="NPM" src="https://img.shields.io/npm/v/types-tsconfig.svg">
   </a>
   <a href="https://github.com/bconnorwhite/types-tsconfig">
-    <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/types-tsconfig.svg">
+    <img alt="TypeScript" src="https://img.shields.io/github/languages/top/bconnorwhite/types-tsconfig.svg">
+  </a>
+  <a href='https://coveralls.io/github/bconnorwhite/types-tsconfig?branch=master'>
+    <img alt="Coverage Status" src="https://img.shields.io/coveralls/github/bconnorwhite/types-tsconfig.svg?branch=master">
   </a>
   <a href="https://github.com/bconnorwhite/types-tsconfig">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/types-tsconfig?label=Stars%20Appreciated%21&style=social">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/bconnorwhite/types-tsconfig?label=Stars%20Appreciated%21&style=social">
   </a>
   <a href="https://twitter.com/bconnorwhite">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/bconnorwhite.svg?label=%40bconnorwhite&style=social">

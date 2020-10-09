@@ -1,3 +1,6 @@
 /build
+/coverage
 node_modules
+.DS_Store
+.env
 yarn-error.log

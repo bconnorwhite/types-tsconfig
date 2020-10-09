@@ -1,26 +1,17 @@
 {
+  "extends": "@bconnorwhite/bob",
   "compilerOptions": {
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "preserve",
-    "lib": [
-      "dom",
-      "esnext"
+    "rootDirs": [
+      "source",
+      "types"
     ],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "outDir": "build",
-    "removeComments": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "esnext"
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ]
   },
   "include": [
-    "source"
+    "source",
+    "types"
   ]
 }
