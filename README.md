@@ -49,6 +49,7 @@ import {
   NewLine,
   Module,
   JSX,
+  TSConfigFileName,
   fileName
 } from "types-tsconfig";
 
