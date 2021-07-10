@@ -109,6 +109,11 @@ export type CompilerOptions = {
    */
   noImplicitAny?: boolean;
   /**
+   * Ensure overriding members in derived classes are marked with an override modifier.
+   * @default false
+   */
+  noImplicitOverride?: boolean;
+  /**
    * Raise error on 'this' expressions with an implied any type.
    * @default false
    */
