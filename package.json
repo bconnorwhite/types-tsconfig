@@ -38,10 +38,10 @@
     "test": "bob test"
   },
   "dependencies": {
-    "types-json": "^1.2.0"
+    "types-json": "^1.2.2"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^2.9.2"
+    "@bconnorwhite/bob": "^2.9.4"
   },
   "eslintConfig": {
     "extends": "eslint-config-bob"

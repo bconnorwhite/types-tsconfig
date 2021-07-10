@@ -436,7 +436,7 @@ export type CompilerOptions = {
    * @default false
    */
   resolveJsonModule?: boolean;
-}
+};
 
 export {
   Plugin,

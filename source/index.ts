@@ -21,7 +21,7 @@ export type TypeAcquisition = {
    * Specifies a list of type declarations to be excluded from auto type acquisition. For example, `['jquery', 'lodash']`.
    */
   exclude?: string[];
-}
+};
 
 export type References = {
   /**
@@ -41,7 +41,7 @@ export type References = {
    * True if it is intended that this reference form a circularity.
    */
   circular?: boolean;
-}
+};
 
 export type TSConfigJSON = {
   /**
@@ -85,7 +85,7 @@ export type TSConfigJSON = {
    * Requires TypeScript version 3.0 or later.
    */
   references?: References[];
-}
+};
 
 export {
   CompilerOptions,

@@ -153,4 +153,4 @@ export type Plugin = {
    * Plugin name.
     */
   name?: string;
-}
+};
