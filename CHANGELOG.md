@@ -1,3 +1,13 @@
+## [1.2.1](https://github.com/bconnorwhite/types-tsconfig/compare/v1.2.0...v1.2.1) (2021-07-10)
+
+
+### Bug Fixes
+
+* dependency bumps ([da65675](https://github.com/bconnorwhite/types-tsconfig/commit/da6567521cc34d88f103f0997df1571e975b11bf))
+* noImplicitOverride ([41a6f51](https://github.com/bconnorwhite/types-tsconfig/commit/41a6f5196e504233bcd75c6239f1e258f8d77f4b))
+
+
+
 # [1.2.0](https://github.com/bconnorwhite/types-tsconfig/compare/v1.1.2...v1.2.0) (2020-10-09)
 
 
