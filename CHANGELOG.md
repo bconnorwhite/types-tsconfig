@@ -1,3 +1,7 @@
+# [3.0.0](https://github.com/bconnorwhite/types-tsconfig/compare/v1.2.1...v3.0.0) (2023-01-11)
+
+
+
 ## [1.2.1](https://github.com/bconnorwhite/types-tsconfig/compare/v1.2.0...v1.2.1) (2021-07-10)
 
 
