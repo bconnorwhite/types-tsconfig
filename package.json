@@ -51,8 +51,7 @@
     "zod": "^3.20.2"
   },
   "devDependencies": {
-    "autorepo": "^0.1.9",
-    "ts-to-zod": "^1.13.1"
+    "autorepo": "^0.1.9"
   },
   "eslintConfig": {
     "extends": "@autosoft/eslint-config"
