@@ -1,18 +1,19 @@
 {
   "name": "types-tsconfig",
-  "version": "1.2.1",
+  "version": "2.2.1",
   "description": "Type checking for tsconfig.json",
   "license": "MIT",
-  "author": {
-    "name": "Connor White",
-    "email": "connor.bcw@gmail.com",
-    "url": "https://connorwhite.org"
-  },
-  "homepage": "https://connorwhite.org/github/types-tsconfig",
+  "private": false,
+  "author": "Connor White",
+  "contributors": [
+    "Connor White"
+  ],
+  "homepage": "https://github.com/bconnorwhite/types-tsconfig#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bconnorwhite/types-tsconfig.git"
   },
+  "bugs": "https://github.com/bconnorwhite/types-tsconfig/issues",
   "keywords": [
     "tsconfig",
     "json",
@@ -26,32 +27,40 @@
     "config",
     "typescript"
   ],
+  "type": "module",
+  "main": ".auto/build/index.js",
+  "exports": "./.auto/build/index.js",
+  "types": ".auto/build/index.d.ts",
   "files": [
-    "build"
+    ".auto/build/**/!(tsconfig.tsbuildinfo)"
   ],
-  "main": "./build/index.js",
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
   "scripts": {
-    "build": "bob build",
-    "commit": "bob commit",
-    "lint": "bob lint",
-    "release": "bob publish",
-    "test": "bob test"
+    "build": "auto build",
+    "dev": "auto dev",
+    "lint": "auto lint",
+    "prepack": "yarn build",
+    "release": "auto release",
+    "test": "auto test",
+    "typecheck": "auto typecheck"
   },
   "dependencies": {
-    "types-json": "^1.2.2"
+    "type-fest": "^3.5.1",
+    "zod": "^3.20.2"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^2.9.4"
+    "autorepo": "^0.1.9",
+    "ts-to-zod": "^1.13.1"
   },
   "eslintConfig": {
-    "extends": "eslint-config-bob"
+    "extends": "@autosoft/eslint-config"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "bob lint commit"
-    }
+  "jest": {
+    "preset": "@autosoft/jest-preset"
   },
   "npmpackagejsonlint": {
-    "extends": "npm-package-json-lint-config-bob"
+    "extends": "npm-package-json-lint-config-auto"
   }
 }
