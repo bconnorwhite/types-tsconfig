@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/bconnorwhite/types-tsconfig/compare/v2.0.0...v2.0.1) (2023-01-11)
+
+
+### Bug Fixes
+
+* export full TsConfigJson namespace ([f426f50](https://github.com/bconnorwhite/types-tsconfig/commit/f426f5056390484486bf6775aac1971bb4e0282f))
+
+
+
 # [2.0.0](https://github.com/bconnorwhite/types-tsconfig/compare/v1.2.1...v2.0.0) (2023-01-11)
 
 
