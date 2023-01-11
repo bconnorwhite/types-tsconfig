@@ -1,6 +1,6 @@
-/build
-/coverage
+.auto
+.turbo
 node_modules
 .DS_Store
-.env
+*.txt
 yarn-error.log
