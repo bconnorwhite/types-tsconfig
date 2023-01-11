@@ -1,3 +1,12 @@
+## [2.0.2](https://github.com/bconnorwhite/types-tsconfig/compare/v2.0.1...v2.0.2) (2023-01-11)
+
+
+### Bug Fixes
+
+* remove unused dev dependency ([ebc265a](https://github.com/bconnorwhite/types-tsconfig/commit/ebc265a6ec65e421a2e4ee5002760a1a152aae35))
+
+
+
 ## [2.0.1](https://github.com/bconnorwhite/types-tsconfig/compare/v2.0.0...v2.0.1) (2023-01-11)
 
 
