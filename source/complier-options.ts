@@ -47,6 +47,8 @@ const newLineSchema = z.union([
 const moduleResolutionSchema = z.union([
   z.literal("classic"),
   z.literal("node"),
+  z.literal("node10"),
+  z.literal("bundler"),
   z.literal("node16"),
   z.literal("nodenext"),
   z.literal("Classic"),
