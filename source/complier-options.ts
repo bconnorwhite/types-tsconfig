@@ -6,7 +6,7 @@ const jsxSchema = z.union([
   z.literal("react"),
   z.literal("react-jsx"),
   z.literal("react-jsxdev"),
-  z.literal("react-native")
+  z.literal("react-native"),
 ]);
 
 const moduleSchema = z.union([
@@ -33,14 +33,15 @@ const moduleSchema = z.union([
   z.literal("esnext"),
   z.literal("node16"),
   z.literal("nodenext"),
-  z.literal("none")
+  z.literal("preserve"),
+  z.literal("none"),
 ]);
 
 const newLineSchema = z.union([
   z.literal("CRLF"),
   z.literal("LF"),
   z.literal("crlf"),
-  z.literal("lf")
+  z.literal("lf"),
 ]);
 
 const moduleResolutionSchema = z.union([
@@ -51,7 +52,7 @@ const moduleResolutionSchema = z.union([
   z.literal("Classic"),
   z.literal("Node"),
   z.literal("Node16"),
-  z.literal("NodeNext")
+  z.literal("NodeNext"),
 ]);
 
 const targetSchema = z.union([
@@ -78,7 +79,7 @@ const targetSchema = z.union([
   z.literal("es2020"),
   z.literal("es2021"),
   z.literal("es2022"),
-  z.literal("esnext")
+  z.literal("esnext"),
 ]);
 
 const libSchema = z.union([
@@ -197,7 +198,7 @@ const libSchema = z.union([
   z.literal("scripthost"),
   z.literal("webworker"),
   z.literal("webworker.importscripts"),
-  z.literal("webworker.iterable")
+  z.literal("webworker.iterable"),
 ]);
 
 const fallbackPollingSchema = z.union([
@@ -207,14 +208,14 @@ const fallbackPollingSchema = z.union([
   z.literal("fixedInterval"),
   z.literal("priorityInterval"),
   z.literal("dynamicPriority"),
-  z.literal("fixedChunkSize")
+  z.literal("fixedChunkSize"),
 ]);
 
 const watchDirectorySchema = z.union([
   z.literal("useFsEvents"),
   z.literal("fixedPollingInterval"),
   z.literal("dynamicPriorityPolling"),
-  z.literal("fixedChunkSizePolling")
+  z.literal("fixedChunkSizePolling"),
 ]);
 
 const watchFileSchema = z.union([
@@ -223,25 +224,25 @@ const watchFileSchema = z.union([
   z.literal("dynamicPriorityPolling"),
   z.literal("useFsEvents"),
   z.literal("useFsEventsOnParentDirectory"),
-  z.literal("fixedChunkSizePolling")
+  z.literal("fixedChunkSizePolling"),
 ]);
 
 const pluginSchema = z.record(z.unknown()).and(
   z.object({
-    name: z.string().optional()
+    name: z.string().optional(),
   })
 );
 
 const importsNotUsedAsValuesSchema = z.union([
   z.literal("remove"),
   z.literal("preserve"),
-  z.literal("error")
+  z.literal("error"),
 ]);
 
 const moduleDetectionSchema = z.union([
   z.literal("auto"),
   z.literal("legacy"),
-  z.literal("force")
+  z.literal("force"),
 ]);
 
 export const compilerOptionsSchema = z.object({
@@ -350,5 +351,5 @@ export const compilerOptionsSchema = z.object({
   explainFiles: z.boolean().optional(),
   preserveValueImports: z.boolean().optional(),
   moduleSuffixes: z.array(z.string()).optional(),
-  moduleDetection: moduleDetectionSchema.optional()
+  moduleDetection: moduleDetectionSchema.optional(),
 });
