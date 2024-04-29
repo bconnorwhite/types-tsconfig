@@ -53,6 +53,7 @@ const moduleResolutionSchema = z.union([
   z.literal("nodenext"),
   z.literal("Classic"),
   z.literal("Node"),
+  z.literal("Node10"),
   z.literal("Node16"),
   z.literal("NodeNext")
 ]);
