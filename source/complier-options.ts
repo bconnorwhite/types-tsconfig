@@ -356,4 +356,9 @@ export const compilerOptionsSchema = z.object({
   preserveValueImports: z.boolean().optional(),
   moduleSuffixes: z.array(z.string()).optional(),
   moduleDetection: moduleDetectionSchema.optional(),
+  customConditions: z.array(z.string()).optional(),
+  resolvePackageJsonExports: z.boolean().optional(),
+  resolvePackageJsonImports: z.boolean().optional(),
+  verbatimModuleSyntax: z.boolean().optional(),
+  allowImportingTsExtensions: z.boolean().optional(),
 });
