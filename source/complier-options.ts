@@ -33,6 +33,7 @@ const moduleSchema = z.union([
   z.literal("esnext"),
   z.literal("node16"),
   z.literal("nodenext"),
+  z.literal("preserve"),
   z.literal("none")
 ]);
 
@@ -46,10 +47,13 @@ const newLineSchema = z.union([
 const moduleResolutionSchema = z.union([
   z.literal("classic"),
   z.literal("node"),
+  z.literal("node10"),
+  z.literal("bundler"),
   z.literal("node16"),
   z.literal("nodenext"),
   z.literal("Classic"),
   z.literal("Node"),
+  z.literal("Node10"),
   z.literal("Node16"),
   z.literal("NodeNext")
 ]);
@@ -125,6 +129,7 @@ const libSchema = z.union([
   z.literal("ES2021.Promise"),
   z.literal("ES2021.String"),
   z.literal("ES2021.WeakRef"),
+  z.literal("ES2022"),
   z.literal("ESNext"),
   z.literal("ESNext.Array"),
   z.literal("ESNext.AsyncIterable"),
@@ -183,6 +188,7 @@ const libSchema = z.union([
   z.literal("es2021.promise"),
   z.literal("es2021.string"),
   z.literal("es2021.weakref"),
+  z.literal("es2022"),
   z.literal("esnext"),
   z.literal("esnext.array"),
   z.literal("esnext.asynciterable"),
@@ -350,5 +356,10 @@ export const compilerOptionsSchema = z.object({
   explainFiles: z.boolean().optional(),
   preserveValueImports: z.boolean().optional(),
   moduleSuffixes: z.array(z.string()).optional(),
-  moduleDetection: moduleDetectionSchema.optional()
+  moduleDetection: moduleDetectionSchema.optional(),
+  customConditions: z.array(z.string()).optional(),
+  resolvePackageJsonExports: z.boolean().optional(),
+  resolvePackageJsonImports: z.boolean().optional(),
+  verbatimModuleSyntax: z.boolean().optional(),
+  allowImportingTsExtensions: z.boolean().optional()
 });
