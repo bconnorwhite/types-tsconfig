@@ -47,8 +47,8 @@
     "typecheck": "auto typecheck"
   },
   "dependencies": {
-    "type-fest": "^3.5.1",
-    "zod": "^3.20.2"
+    "type-fest": "^4.18.1",
+    "zod": "^3.23.6"
   },
   "devDependencies": {
     "autorepo": "^0.1.9"
